@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(167, 167, 167)
+}
+ 
+/*Navigation Bar*/
+.navbar{
+    background-color: white;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+    height: 50px;
+
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    transition: height 0.15s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar:hover{
+    height: 70px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(57, 125, 125);
+    font-weight: bold;
+}
+
+
+/*Resume*/
+.resume_body{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.resume_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 1200px;
+    background-color: aliceblue;
+
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.resume_section ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/*3D modelling*/

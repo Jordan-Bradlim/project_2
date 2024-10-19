@@ -42,7 +42,6 @@ body{
 
 /*Resume*/
 .resume_body{
-    margin-top: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,6 +67,48 @@ body{
     align-items: center;
 }
 
+/*Hobby*/
+
+img,
+video{
+    width: 400px;
+}
+
+.hobby_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.hobby_description,
+.hobby_description div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+
+}
+
+.hobby_description div{
+    gap: 10px;
+}
+
+.hobby_description div p{
+    color: rgb(104, 104, 104);
+}
+
+.hobby_project{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center; 
+    height: auto; 
+    padding: 20px;
+
+}
 
 
-/*3D modelling*/
+
